@@ -1,6 +1,7 @@
 def sum_of_n(n):
     a = 0
-    result = []
+    result = []     #  배열을 이쪽에 만드는걸 애먹었고
+                    #  배열에 추가하는 append도 이때 앎
     if n > 0:
         for x in range(n+1):
             a += x
